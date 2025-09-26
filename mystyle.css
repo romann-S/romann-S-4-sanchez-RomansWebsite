@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+a:link {
+  color: white;
+background-color: darkred;
+padding: 10px 15px;
+margin: 5px 15px;
+border-radius:6px;
+
+}
+
+/* visited link */
+a:visited {
+  color: white;
+background-color: darkred;
+padding: 10px 15px;
+margin: 5px 15px;
+}
+
+/* mouse over link */
+a:hover {
+background-color: white;
+  color: maroon;
+
+}
+
+/* selected link */
+a:active {
+  color: #63372c;
+}
+body {
+background-color:white;
+color:darkred;
+font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+background-image:url("CreamBackground.jpg");
+max-width:1700px;
+margin-left: auto;
+margin-right: auto;
+}
+#title {
+font-size: 40px;
+text-align: center;
+font-weight:bold;
+
+
+}
+#header {
+background-color: darkred;
+color:#e4dfda;
+font-size: 50px;
+padding: 25px;
+text-align: center;
+background-image:url("MaroonBackground.jpg");
+}
+#nav {
+background-color: maroon;
+color: #e4dfda;
+text-align: center;
+padding: 15px;
+
+
+}
+#content {
+padding: 15px;
+}
+#footer {
+background-color: maroon;
+color: #e4dfda;
+text-align: center;
+padding: 15px;
+}
+.thirdcolumn {
+width: 26.2%;
+padding: 8px;
+float: left;
+transition: width 1s, height 1s, transform 1s;
+}
+.thirdcolumn:hover {
+  box-shadow: 0px 0px 5px 3px darkred;
+  transform: scale(1.025);
+  background-color: rgba(110, 110, 110, 0.6);
+}
+.section img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.section img:hover {
+  transform: scale(1.05); /* zooms in slightly */
+}
